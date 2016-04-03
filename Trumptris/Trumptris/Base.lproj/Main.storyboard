@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BV1-FR-VrT">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModule="Trumptris" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8aa-yV-Osq"/>
+                        <viewControllerLayoutGuide type="bottom" id="qHh-Mt-9TT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yb3-O8-JUj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="HQd-no-PnH">
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="shP-gk-dzI">
+                                <rect key="frame" x="93" y="55" width="310.5" height="626"/>
+                                <color key="backgroundColor" white="0.91000000000000003" alpha="0.69999999999999996" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r2H-Ko-TkT" userLabel="GameScreen" customClass="SKView">
+                                <rect key="frame" x="93" y="55" width="310.5" height="626"/>
+                                <color key="backgroundColor" white="0.90501644736842102" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cWr-pn-tMs">
+                                <rect key="frame" x="0.0" y="110" width="93" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1V-UI-q2A">
+                                <rect key="frame" x="56" y="139" width="11" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView hidden="YES" userInteractionEnabled="NO" tag="20" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="trumpEffort.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ern-bF-ng4">
+                                <rect key="frame" x="87" y="304" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="r2H-Ko-TkT" firstAttribute="height" secondItem="Yb3-O8-JUj" secondAttribute="height" multiplier="0.85" id="0jj-no-qce"/>
+                            <constraint firstItem="r2H-Ko-TkT" firstAttribute="leading" secondItem="cWr-pn-tMs" secondAttribute="trailing" id="31f-jm-Adm"/>
+                            <constraint firstItem="cWr-pn-tMs" firstAttribute="leading" secondItem="Yb3-O8-JUj" secondAttribute="leading" id="3Kf-Pe-fYt"/>
+                            <constraint firstItem="ern-bF-ng4" firstAttribute="centerY" secondItem="Yb3-O8-JUj" secondAttribute="centerY" id="3f0-90-8Lv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ern-bF-ng4" secondAttribute="trailing" constant="10" id="5hB-QF-rj2"/>
+                            <constraint firstItem="cWr-pn-tMs" firstAttribute="top" secondItem="r2H-Ko-TkT" secondAttribute="top" constant="55" id="C1w-OU-9OB"/>
+                            <constraint firstItem="r2H-Ko-TkT" firstAttribute="width" secondItem="Yb3-O8-JUj" secondAttribute="width" multiplier="0.75" id="Jb5-3G-HJe"/>
+                            <constraint firstItem="r2H-Ko-TkT" firstAttribute="centerY" secondItem="Yb3-O8-JUj" secondAttribute="centerY" id="Kgi-5E-VCd"/>
+                            <constraint firstItem="HQd-no-PnH" firstAttribute="leading" secondItem="Yb3-O8-JUj" secondAttribute="leading" id="L1T-Cd-a4N"/>
+                            <constraint firstItem="ern-bF-ng4" firstAttribute="centerX" secondItem="Yb3-O8-JUj" secondAttribute="centerX" id="MD6-a9-iCu"/>
+                            <constraint firstItem="ern-bF-ng4" firstAttribute="leading" secondItem="Yb3-O8-JUj" secondAttribute="leadingMargin" constant="10" id="SY0-ad-8cH"/>
+                            <constraint firstItem="Y1V-UI-q2A" firstAttribute="centerX" secondItem="cWr-pn-tMs" secondAttribute="centerX" id="Va6-L6-QFJ"/>
+                            <constraint firstItem="qHh-Mt-9TT" firstAttribute="top" secondItem="HQd-no-PnH" secondAttribute="bottom" id="gXJ-CA-jzC"/>
+                            <constraint firstItem="r2H-Ko-TkT" firstAttribute="centerX" secondItem="Yb3-O8-JUj" secondAttribute="centerX" multiplier="1.2" id="gyn-Nh-hFP"/>
+                            <constraint firstAttribute="trailing" secondItem="HQd-no-PnH" secondAttribute="trailing" id="i23-mH-UxO"/>
+                            <constraint firstItem="shP-gk-dzI" firstAttribute="trailing" secondItem="r2H-Ko-TkT" secondAttribute="trailing" id="jSg-nf-z0r"/>
+                            <constraint firstItem="shP-gk-dzI" firstAttribute="leading" secondItem="r2H-Ko-TkT" secondAttribute="leading" id="oOi-HF-Vxb"/>
+                            <constraint firstItem="shP-gk-dzI" firstAttribute="bottom" secondItem="r2H-Ko-TkT" secondAttribute="bottom" id="pbm-8q-iT2"/>
+                            <constraint firstItem="shP-gk-dzI" firstAttribute="top" secondItem="r2H-Ko-TkT" secondAttribute="top" id="sDp-PN-Db3"/>
+                            <constraint firstItem="Y1V-UI-q2A" firstAttribute="top" secondItem="cWr-pn-tMs" secondAttribute="bottom" constant="5" id="txE-QU-8jx"/>
+                            <constraint firstItem="HQd-no-PnH" firstAttribute="top" secondItem="8aa-yV-Osq" secondAttribute="bottom" id="ty9-FH-Uv1"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="scoreLabel" destination="Y1V-UI-q2A" id="A2I-ki-A5Z"/>
+                        <outlet property="skView" destination="r2H-Ko-TkT" id="l90-Rw-ZJH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background.png" width="305" height="542"/>
+        <image name="trumpEffort.jpg" width="500" height="281"/>
+    </resources>
+</document>
