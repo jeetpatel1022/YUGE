@@ -47,7 +47,7 @@
 		10A759901CB0A8EF00B8DE11 /* holding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = holding.png; sourceTree = "<group>"; };
 		10A759951CB0AFFA00B8DE11 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		10A759961CB0AFFA00B8DE11 /* background4-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background4-3.png"; sourceTree = "<group>"; };
-		10B92BFD1CB058FF00B854F1 /* Trumptris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trumptris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B92BFD1CB058FF00B854F1 /* YUGE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUGE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B92C001CB058FF00B854F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10B92C041CB058FF00B854F1 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		10B92C061CB058FF00B854F1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 		10B92BFE1CB058FF00B854F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				10B92BFD1CB058FF00B854F1 /* Trumptris.app */,
+				10B92BFD1CB058FF00B854F1 /* YUGE.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		10B92BFC1CB058FF00B854F1 /* Trumptris */ = {
+		10B92BFC1CB058FF00B854F1 /* YUGE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 10B92C131CB058FF00B854F1 /* Build configuration list for PBXNativeTarget "Trumptris" */;
+			buildConfigurationList = 10B92C131CB058FF00B854F1 /* Build configuration list for PBXNativeTarget "YUGE" */;
 			buildPhases = (
 				10B92BF91CB058FF00B854F1 /* Sources */,
 				10B92BFA1CB058FF00B854F1 /* Frameworks */,
@@ -169,9 +169,9 @@
 			);
 			dependencies = (
 			);
-			name = Trumptris;
+			name = YUGE;
 			productName = Trumptris;
-			productReference = 10B92BFD1CB058FF00B854F1 /* Trumptris.app */;
+			productReference = 10B92BFD1CB058FF00B854F1 /* YUGE.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -190,7 +190,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 10B92BF81CB058FF00B854F1 /* Build configuration list for PBXProject "Trumptris" */;
+			buildConfigurationList = 10B92BF81CB058FF00B854F1 /* Build configuration list for PBXProject "YUGE" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -203,7 +203,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				10B92BFC1CB058FF00B854F1 /* Trumptris */,
+				10B92BFC1CB058FF00B854F1 /* YUGE */,
 			);
 		};
 /* End PBXProject section */
@@ -374,7 +374,7 @@
 					SparkInspector,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = NTJ.Trumptris;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = YUGE;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -390,7 +390,7 @@
 				INFOPLIST_FILE = Trumptris/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NTJ.Trumptris;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = YUGE;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -399,7 +399,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		10B92BF81CB058FF00B854F1 /* Build configuration list for PBXProject "Trumptris" */ = {
+		10B92BF81CB058FF00B854F1 /* Build configuration list for PBXProject "YUGE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10B92C111CB058FF00B854F1 /* Debug */,
@@ -408,7 +408,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		10B92C131CB058FF00B854F1 /* Build configuration list for PBXNativeTarget "Trumptris" */ = {
+		10B92C131CB058FF00B854F1 /* Build configuration list for PBXNativeTarget "YUGE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10B92C141CB058FF00B854F1 /* Debug */,

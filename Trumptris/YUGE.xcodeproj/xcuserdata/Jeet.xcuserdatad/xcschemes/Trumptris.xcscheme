@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "10B92BFC1CB058FF00B854F1"
-               BuildableName = "Trumptris.app"
-               BlueprintName = "Trumptris"
-               ReferencedContainer = "container:Trumptris.xcodeproj">
+               BuildableName = "YUGE.app"
+               BlueprintName = "YUGE"
+               ReferencedContainer = "container:YUGE.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "10B92BFC1CB058FF00B854F1"
-            BuildableName = "Trumptris.app"
-            BlueprintName = "Trumptris"
-            ReferencedContainer = "container:Trumptris.xcodeproj">
+            BuildableName = "YUGE.app"
+            BlueprintName = "YUGE"
+            ReferencedContainer = "container:YUGE.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "10B92BFC1CB058FF00B854F1"
-            BuildableName = "Trumptris.app"
-            BlueprintName = "Trumptris"
-            ReferencedContainer = "container:Trumptris.xcodeproj">
+            BuildableName = "YUGE.app"
+            BlueprintName = "YUGE"
+            ReferencedContainer = "container:YUGE.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "10B92BFC1CB058FF00B854F1"
-            BuildableName = "Trumptris.app"
-            BlueprintName = "Trumptris"
-            ReferencedContainer = "container:Trumptris.xcodeproj">
+            BuildableName = "YUGE.app"
+            BlueprintName = "YUGE"
+            ReferencedContainer = "container:YUGE.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

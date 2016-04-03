@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Trumptris.xcodeproj">
+      location = "self:/Users/Jeet/Google Drive/iOS/YUGE/YUGE/Trumptris/YUGE.xcodeproj">
    </FileRef>
 </Workspace>
