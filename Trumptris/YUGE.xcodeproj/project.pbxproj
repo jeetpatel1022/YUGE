@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		107DD6C61CB15AEB00DB10E9 /* loan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 107DD6C51CB15AEB00DB10E9 /* loan.mp3 */; };
+		107DD6C81CB168EC00DB10E9 /* 151013_POL_bernie-sanders-debate.jpg.CROP.promo-xlarge2.png in Resources */ = {isa = PBXBuildFile; fileRef = 107DD6C71CB168EC00DB10E9 /* 151013_POL_bernie-sanders-debate.jpg.CROP.promo-xlarge2.png */; };
+		107DD6CA1CB1794300DB10E9 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 107DD6C91CB1794300DB10E9 /* title.png */; };
 		10A312211CB0DB90008D12A6 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 10A312201CB0DB90008D12A6 /* play.png */; };
 		10A312291CB11497008D12A6 /* blueBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 10A312231CB11497008D12A6 /* blueBlock.png */; };
 		10A3122A1CB11497008D12A6 /* greenBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 10A312241CB11497008D12A6 /* greenBlock.png */; };
@@ -33,6 +36,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		107DD6C51CB15AEB00DB10E9 /* loan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loan.mp3; sourceTree = "<group>"; };
+		107DD6C71CB168EC00DB10E9 /* 151013_POL_bernie-sanders-debate.jpg.CROP.promo-xlarge2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "151013_POL_bernie-sanders-debate.jpg.CROP.promo-xlarge2.png"; sourceTree = "<group>"; };
+		107DD6C91CB1794300DB10E9 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
 		10A312201CB0DB90008D12A6 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		10A312231CB11497008D12A6 /* blueBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBlock.png; sourceTree = "<group>"; };
 		10A312241CB11497008D12A6 /* greenBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenBlock.png; sourceTree = "<group>"; };
@@ -112,6 +118,9 @@
 		10A7599A1CB0B00600B8DE11 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				107DD6C71CB168EC00DB10E9 /* 151013_POL_bernie-sanders-debate.jpg.CROP.promo-xlarge2.png */,
+				107DD6C91CB1794300DB10E9 /* title.png */,
+				107DD6C51CB15AEB00DB10E9 /* loan.mp3 */,
 				10A312331CB14D29008D12A6 /* fired.mp3 */,
 				10A312311CB14611008D12A6 /* trumpEffort.jpg */,
 				10A312221CB11483008D12A6 /* Blocks */,
@@ -220,11 +229,14 @@
 				10A312291CB11497008D12A6 /* blueBlock.png in Resources */,
 				10A759921CB0A8EF00B8DE11 /* ease.png in Resources */,
 				10A312341CB14D29008D12A6 /* fired.mp3 in Resources */,
+				107DD6C61CB15AEB00DB10E9 /* loan.mp3 in Resources */,
+				107DD6C81CB168EC00DB10E9 /* 151013_POL_bernie-sanders-debate.jpg.CROP.promo-xlarge2.png in Resources */,
 				10B92C0F1CB058FF00B854F1 /* LaunchScreen.storyboard in Resources */,
 				10B92C0C1CB058FF00B854F1 /* Assets.xcassets in Resources */,
 				10A312211CB0DB90008D12A6 /* play.png in Resources */,
 				10A3122D1CB11497008D12A6 /* redBlock.png in Resources */,
 				10B92C0A1CB058FF00B854F1 /* Main.storyboard in Resources */,
+				107DD6CA1CB1794300DB10E9 /* title.png in Resources */,
 				10A3122B1CB11497008D12A6 /* orangeBlock.png in Resources */,
 				10A312321CB14611008D12A6 /* trumpEffort.jpg in Resources */,
 				10A759931CB0A8EF00B8DE11 /* holding.png in Resources */,

@@ -48,6 +48,7 @@ class GameScene: SKScene {
         let rotate = SKAction.repeatAction((SKAction.rotateByAngle(CGFloat(-M_PI_4), duration: 0.03)), count: 8)
         let group = SKAction.group([fadePlay,shrink,rotate])
         playButton.runAction(fadePlay, completion: {self.playButton.removeFromParent()})
+        playButton.runAction(SKAction.playSoundFileNamed("loan.mp3", waitForCompletion: true))
         angryTrump.runAction(group, completion: {self.startGame()})
         
     }
@@ -130,7 +131,7 @@ class GameScene: SKScene {
         self.view?.superview?.viewWithTag(20)?.alpha = 0
         UIView.animateWithDuration(0.2, animations: {
             self.view?.superview?.viewWithTag(20)?.alpha=1
-            self.angryTrump.runAction( SKAction.playSoundFileNamed("fired.mp3", waitForCompletion: true))
+            self.angryTrump.runAction(SKAction.repeatActionForever(SKAction.playSoundFileNamed("fired.mp3", waitForCompletion: true)))
         })
     }
     func moveDownBlock(block:WallBlock,count:Int) {
@@ -146,7 +147,7 @@ class GameScene: SKScene {
             return
         }
         block.runAction(group, completion: {
-            if 13-(count+1) < 10 {
+            if 13-(count+1) < 9 {
                 self.view!.removeGestureRecognizer(self.leftSwipe!)
                 self.view!.removeGestureRecognizer(self.rightSwipe!)
             }
@@ -169,28 +170,10 @@ class GameScene: SKScene {
         })
     }
     func fixMatches() {
-            var pts = self.getPoints()
+        let pts = self.getPoints()
         NSNotificationCenter.defaultCenter().postNotification(NSNotification(name: "ScoreChange", object: nil, userInfo: ["points":pts]))
 //        var matches = self.wall!.findMatches()
-//        while(matches.0) {
-//            var actions:[SKAction] = []
-//            for coordinate in matches.1! {
-//                var i = coordinate.1
-//                while let block:WallBlock = wall!.gridArr[coordinate.0][i] {
-//                    var column = block.blockPosition.0
-//                    block.blockPosition = (block.blockPosition.0+1,block.blockPosition.1)
-//                    wall!.gridArr[block.blockPosition.0][block.blockPosition.1] = block
-//                    let run = SKAction.moveByX(0, y: -self.frame.height/15, duration: 0.01)
-//                    let wait = SKAction.waitForDuration(0.2)
-//                    let group = SKAction.sequence(([wait,run]))
-//                    actions.append(group)
-//                    i++
-//                    break;
-//                }
-//                
-//            }
-//            matches = self.wall!.findMatches()
-//        }
+//
 //        print(matches.0)
 //        print(matches.1,terminator:"\n\n")
         self.addABlock()
